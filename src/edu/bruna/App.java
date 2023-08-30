@@ -1,5 +1,7 @@
+package edu.bruna;
 public class App {
     public static void main(String[] args) throws Exception {
+<<<<<<< HEAD:src/App.java
         final String BR = "Brasil";
         System.out.println(BR);
         String meuNome = "Bruna";
@@ -21,5 +23,12 @@ public class App {
     }
     public static int somarNumero(int num1, int num2){
         return num1 + num2;
+=======
+        System.out.println("Hello, World!");
+        System.out.println("my name is bruna");
+        System.out.println("i have 18 age");
+        System.out.println("bunda");
+        
+>>>>>>> 78f8da2 (atualizando repositórios):src/edu/bruna/App.java
     }
 }
