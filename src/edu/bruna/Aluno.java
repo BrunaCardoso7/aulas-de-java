@@ -10,7 +10,7 @@ public class Aluno {
         System.out.println("A média de " + this.nome + " foi :" + media);
     }
 
-    
+
     public static class AlunoADS extends Aluno{
         float trabalho1;
         float trabalho2;
@@ -31,12 +31,5 @@ public class Aluno {
     public static void main(String[] args) {
         AlunoADS Joelma = new AlunoADS("Joelma", 10, 5, 7, 6);
         Joelma.mediaAds();
-
-
-        // Aluno francisco = new Aluno();
-        // francisco.nome = "Francisco";
-        // francisco.nota1 = 10;
-        // francisco.nota2 = 8;
-        // francisco.mediaAluno();
     }
 }
